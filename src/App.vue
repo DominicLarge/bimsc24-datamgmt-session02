@@ -11,7 +11,7 @@ import { ref } from "vue" // you need this to use ref()
 <template>
 
 <div id="navbar" class="container">  
-        <div id="title">David's bootcamp website website</div>
+        <div id="title">Doms cowebsite</div>
         
         <div id="logo">
             <img src="./cow.jpg" alt="macad cow">
