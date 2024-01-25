@@ -14,7 +14,7 @@ import { ref } from "vue" // you need this to use ref()
         <div id="title">David's bootcamp website website</div>
         
         <div id="logo">
-            <img src="cow.jpg" alt="macad cow">
+            <img src="./cow.jpg" alt="macad cow">
 
         </div>
         
