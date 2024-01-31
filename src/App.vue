@@ -1,7 +1,13 @@
 <!-- the script is where the js code goes -->
-<script>
+<script setup>
 import { ref } from "vue" // you need this to use ref()
 
+var count = ref(0)
+
+
+function increment() {
+    count.value++;
+}
 
 </script>
 
@@ -25,7 +31,13 @@ import { ref } from "vue" // you need this to use ref()
 
         <div id="sidebar" class="container"> Sidebar </div>
 
-        <div id="main" class="container"> Text input </div>
+        <div id="main" class="container"> Button 
+
+            <button @click="increment">Add 1</button>
+
+            <p style="margin-left: 8px">Count is: {{  count }}</p>
+
+        </div>
     </div>
 
 
